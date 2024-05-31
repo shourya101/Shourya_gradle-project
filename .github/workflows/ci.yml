@@ -39,4 +39,5 @@ jobs:
       run: env
       env:
         USERNAME: ${{ secrets.USERNAME }}
+        NAVIGITHUB_TOKEN:  ${{ secrets.NAVIGITHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.NAVIGITHUB_TOKEN }}
