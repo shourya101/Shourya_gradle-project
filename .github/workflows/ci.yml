@@ -39,5 +39,5 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         NAVIGITHUB_TOKEN:  ${{ secrets.NAVIGITHUB_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.NAVIGITHUB_TOKEN }}
-      run: env
-      # run: ./gradlew publish
+      # run: env
+      run: ./gradlew publish
