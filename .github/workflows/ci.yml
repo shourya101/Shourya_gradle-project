@@ -37,8 +37,8 @@ jobs:
     - name: Publish to GitHub Packages
       env:
         USERNAME: ${{ secrets.USERNAME }}
-        NAVIGITHUB_TOKEN:  ${{ secrets.NAVIGITHUB_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.NAVIGITHUB_TOKEN }}
+        mygithub_token:  ${{ secrets.mygithub_token }}
+      # GITHUB_TOKEN: ${{ secrets.NAVIGITHUB_TOKEN }}
         
       # run: env
       run: ./gradlew publish
