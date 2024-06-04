@@ -27,7 +27,7 @@ publishing {
             url = uri("https://maven.pkg.github.com/Naveena134/gradle-project")
             credentials {
                 username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.token") ?: System.getenv("NAVIGITHUB_TOKEN")
+                password = project.findProperty("gpr.token") ?: System.getenv("mygithub_token")
             }
         }
     }
